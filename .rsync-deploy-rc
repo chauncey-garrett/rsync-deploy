@@ -1,0 +1,19 @@
+#
+# environment variables for _deploy.zsh
+#
+
+path_deploy_from="${PWD}"
+path_deploy_to="/var/www/chauncey.io"
+dir_deploy_cache="cache"
+dir_local_stage="_builds/production"
+
+username="ChaunceyGarrett"
+hostname="chauncey.io"
+port="22"
+ssh_key="$HOME/.ssh/id_rsa"
+
+dir_deploy_releases="releases"
+keep_releases="9"
+
+lock_file="deploy.lock"
+
